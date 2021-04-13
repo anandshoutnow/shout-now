@@ -1,0 +1,24 @@
+.container {
+  color: #585858;
+}
+
+.left-container {
+  color: #585858;
+  width: 20%;
+  height: 100vh;
+}
+
+.right-container {
+  color: #585858;
+  border: 1px solid black;
+  width: 80%;
+  height: 100vh;
+}
+
+p {
+  margin-bottom: 0px;
+}
+.category-selection:hover {
+  color: blue;
+  font-weight: 500;
+}

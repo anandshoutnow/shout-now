@@ -1,0 +1,22 @@
+<app-header></app-header>
+<div class="container">
+  <h5 class="mt-4 mb-4 font-weight-bold">Top ShoutNow Freelancers</h5>
+  <div class="d-flex">
+    <div class="left-container">
+      <h6 class="font-weight-bold">Filtered By</h6>
+      <hr />
+      <div class="d-flex justify-content-between">
+        <h6 class="font-weight-bold">Category</h6>
+        <i
+          style="font-size: 24px"
+          class="fa fa fa-angle-down icon mr-4 pr-2"
+        ></i>
+      </div>
+      <div class="panel" *ngFor="let child of data.childProperties">
+        <p>{{ child.propertyName }}</p>
+      </div>
+      <hr />
+    </div>
+    <div class="right-container">Right Container</div>
+  </div>
+</div>
